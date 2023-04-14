@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL here](https://your-solution-url.com)
-- Live Site URL: [live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL here](https://github.com/Kuzitaa/frontedmentor-notificationpage)
+- Live Site URL: [live site URL here](https://kuzitaa.github.io/frontedmentor-notificationpage/)
 
 ## My process
 
