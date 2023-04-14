@@ -1,0 +1,116 @@
+:root {
+/* Primary */
+--color-red: hsl(1, 90%, 64%);
+--color-blue: hsl(219, 85%, 26%);
+
+/* Neutral */
+--color-white: hsl(0, 0%, 100%);
+--color-very-light-grayish-blue: hsl(210, 60%, 98%);
+--color-light-grayish-blue-1: hsl(211, 68%, 94%);
+--color-light-grayish-blue-2: hsl(205, 33%, 90%);
+--color-grayish-blue: hsl(219, 14%, 63%);
+--color-dark-grayish-blue: hsl(219, 12%, 42%);
+--color-very-dark-blue: hsl(224, 21%, 14%);
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+  font-family: 'Plus Jakarta Sans';
+  font-size: 0.9rem;
+}
+.ntheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  height: 70px;
+  margin: 0 auto;
+}
+h1 {
+  text-align: center;
+  font-size: 1.3rem;
+}
+h1 span {
+  display: inline-block;
+  width: 28px;
+  height: 21px;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 0.95rem;
+  color: var(--color-white);
+  background-color: var(--color-blue);
+}
+.ntheader button {
+  font-size: 0.95rem;
+  color: var(--color-dark-grayish-blue);
+  background: none;
+  border: none;
+}
+
+/* Section */
+section {
+  width: 95vw;
+  min-width: 356px;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+}
+.notification {
+  display: flex;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 5px;
+}
+.noread {
+  background-color: var(--color-very-light-grayish-blue);
+}
+.notification img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.notification .notification-picture {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  border-radius: 10%;
+}
+
+.notification-red {
+  display: inline-block;
+  margin-left: 3px;
+  width: 8px;
+  height: 8px;
+  background-color: var(--color-red);
+  border-radius: 50%;
+}
+.notification .time {
+  display: inline-block;
+  margin-top: 3px;
+  color: #aaa;
+}
+.dtlpht {
+  display: flex;
+  justify-content: space-between;
+}
+.notification .message {
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px var(--color-light-grayish-blue-1) solid;
+}
+.details p {
+  color: var(--color-dark-grayish-blue);
+}
+.details p .str {
+  margin-right: 3px;
+  color: black;
+}
+.details p a {
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--color-blue);
+}
